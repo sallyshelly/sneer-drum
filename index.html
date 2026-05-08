@@ -128,7 +128,7 @@
   #dismiss {
     position:absolute; top:16px; right:18px;
     background:none; border:none; font-size:22px; color:#b08060;
-    cursor:pointer; opacity:.55; transition:opacity .15s; font-family:inherit;
+    cursor:none; opacity:.55; transition:opacity .15s; font-family:inherit;
   }
   #dismiss:hover { opacity:1; }
   #hint {
@@ -302,7 +302,7 @@
       <path id="ht2" d="M82,185 Q350,225 618,185 L618,385 Q350,425 82,385 Z" fill="transparent" style="cursor:none"/>
 
       <!-- PEARL BADGE — last in SVG = on top, receives its own clicks -->
-      <g id="badge" style="cursor:pointer">
+      <g id="badge" style="cursor:none">
         <rect x="296" y="300" width="108" height="44" rx="6" fill="url(#gBadge)" stroke="rgba(110,70,8,0.38)" stroke-width="1"/>
         <rect x="298" y="302" width="104" height="20" rx="4" fill="rgba(255,255,255,0.14)"/>
         <text x="350" y="321" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-weight="bold" font-style="italic" fill="#543200" letter-spacing="1">sneer</text>
@@ -459,7 +459,7 @@ document.getElementById('card-overlay').addEventListener('click', e => {
 </script>
 
 <!-- hint -->
-<p id="hint">click drum ✦ click badge</p>
+<p id="hint">click the drum ✦ click the badge</p>
 
 </body>
 </html>
